@@ -22,7 +22,7 @@ def execute_command(command):
 commands = [
     # "cd Agriculture-Machinery-Rental-Website-main/Login/Flask_Mail-master && python Mail_Varification_OTP.py",
     "cd Agriculture-Machinery-Rental-Website-main/Crop_Prediction && python app.py",
-    "cd Agriculture-Machinery-Rental-Website-main/shopping && yarn start",
+    # "cd Agriculture-Machinery-Rental-Website-main/shopping && yarn start",
     "cd Agriculture-Machinery-Rental-Website-main/Crop_website && npm start",
     "cd Agriculture-Machinery-Rental-Website-main/main && python backend.py",
     "cd Agriculture-Machinery-Rental-Website-main/Login/Flask_Mail-master && python Mail_Varification_OTP.py"
@@ -44,5 +44,3 @@ for thread in threads:
     thread.join()
 
 print("All commands have finished executing.")
-
-
